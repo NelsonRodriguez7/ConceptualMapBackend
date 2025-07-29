@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Salidas de build (si las generas)
+dist/
+build/
+
+# Archivos de subida temporales
+uploads/
+tmp/
+*.tmp
+
+# Cachés
+.cache/
+.next/
+out/
+
+# PM2 (en caso de usarlo)
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# VSCode y entorno
+.vscode/
+.idea/
+
+# Coverage de pruebas
+coverage/
+
+# Archivos específicos de pruebas locales
+*.local
+*.log
+
+package-lock.json

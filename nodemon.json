@@ -1,0 +1,7 @@
+{
+  "watch": ["app.js", "routes", "controllers", "services"],
+  "ext": "js,json",
+  "ignore": ["uploads"],
+  "exec": "node app.js",
+  "debug":true
+}
